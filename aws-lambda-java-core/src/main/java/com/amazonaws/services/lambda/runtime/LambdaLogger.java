@@ -11,7 +11,7 @@ public interface LambdaLogger {
     /**
     * Logs a string to AWS CloudWatch Logs
     * 
-    * <p>
+    *
     * Logging will not be done:
     * <ul>
     * <li>
@@ -21,7 +21,7 @@ public interface LambdaLogger {
     * If the role provided to the function does not have sufficient permissions.
     * </li>
     * </ul>
-    * </p>
+    *
     * 
     * @param string A string containing the event to log.
     */

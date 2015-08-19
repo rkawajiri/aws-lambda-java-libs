@@ -55,7 +55,7 @@ public class CognitoEvent {
 
         /**
          * Gets the operation associated with the record
-         * <p>
+         *
          * <ul>
          * <li>
          * For a new record or any updates to existing record it is set to "replace".
@@ -64,7 +64,7 @@ public class CognitoEvent {
          * For deleting a record it is set to "remove".
          * </li>
          * </ul>
-         * </p>
+         *
          */
         public String getOp() {
             return op;
@@ -72,7 +72,7 @@ public class CognitoEvent {
 
         /**
          * Sets the operation associated with the record
-         * <p>
+         *
          * <ul>
          * <li>
          * For a new record or any updates to existing record it is set to "replace".
@@ -81,7 +81,7 @@ public class CognitoEvent {
          * For deleting a record it is set to "remove".
          * </li>
          * </ul>
-         * </p>
+         *
          * @param op A string with a value of "replace" of "remove"
          */
         public void setOp(String op) {
@@ -127,7 +127,7 @@ public class CognitoEvent {
 
     /**
      * Sets the map of data set records for the event
-     * @param datasetRecords A map of string & data set record key/value pairs
+     * @param datasetRecords A map of string and data set record key/value pairs
      */  
     public void setDatasetRecords(Map<String, DatasetRecord> datasetRecords) {
         this.datasetRecords = datasetRecords;

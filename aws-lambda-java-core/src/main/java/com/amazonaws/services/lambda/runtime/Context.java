@@ -22,7 +22,7 @@ public interface Context {
 	/**
 	 * Gets the CloudWatch log group that this container is configured to log
 	 * to.
-	 * <p>
+	 *
 	 * The return value may be null:
 	 * <ul>
 	 * <li>
@@ -31,14 +31,14 @@ public interface Context {
 	 * If the role provided to the function does not have sufficient
 	 * permissions.</li>
 	 * </ul>
-	 * </p>
+	 * 
 	 */
 	public String getLogGroupName();
 
 	/**
 	 * Gets the CloudWatch log stream that this container is configured to log
 	 * to.
-	 * <p>
+	 * 
 	 * The return value may be null:
 	 * <ul>
 	 * <li>
@@ -47,7 +47,7 @@ public interface Context {
 	 * If the role provided to the function does not have sufficient
 	 * permissions.</li>
 	 * </ul>
-	 * </p>
+	 * 
 	 */
 	public String getLogStreamName();
 
